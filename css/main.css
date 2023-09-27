@@ -1,19 +1,25 @@
-/* ====================================
-// css variables
-// ==================================== */
-
 :root {
 }
-
-/* ====================================
-// reset rules
-// ==================================== */
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+/* 
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+} 
+*/
 
 html {
   font-size: 16px;
@@ -26,6 +32,7 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+  background-color: #f7f7f7;
 }
 
 a {
@@ -37,4 +44,30 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+}
+
+header {
+  background-color: #fff;
+}
+
+h1 {
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.card {
+  background-color: #fff;
+}
+
+.card-article {
+  text-align: center;
+}
+
+h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
 }
