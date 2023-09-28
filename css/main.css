@@ -71,3 +71,48 @@ h2 {
   font-weight: 400;
   line-height: 26px;
 }
+
+.card-article p {
+  font-family: "Heebo", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.card-article em {
+  color: #b3b3b3;
+  font-style: normal;
+}
+
+.title-reviews {
+  background-color: #eee;
+}
+
+h3 {
+  font-family: "Heebo", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+h3 em {
+  font-style: normal;
+  font-weight: 400;
+}
+
+h4 {
+  font-family: "Heebo", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.author {
+  font-family: "Heebo", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.card-review {
+  font-family: "Heebo", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
